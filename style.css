@@ -1,0 +1,201 @@
+        div.header {
+            /* Centrer l'image de fond */
+            background-image: url('image/Background.png');
+            background-position: center;
+            /* Faire en sorte que l'image de fond couvre toute la div */
+            background-size: cover;
+            /* Fixer l'image de fond pour créer un effet de parallaxe */
+            background-attachment: fixed;
+            /* Hauteur et largeur de la div */
+            height: 100vh;
+            width: 100%;
+            /* Add more styles as needed */
+        }
+        
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+        }
+        
+        #image1 {
+            margin-left: 10%;
+            margin-top: 50px;
+        }
+        
+        #image2 {
+            margin-left: 55%;
+        }
+        
+        input {
+            width: 40px;
+            height: 10px;
+        }
+        
+        .btn12 {
+            width: 180px;
+            /* Remplacez par la largeur souhaitée */
+            height: 50px;
+            /* Remplacez par la hauteur souhaitée */
+            color: #FFFFFF;
+            /* Blanc */
+            background-color: #000000;
+            border-radius: 8px;
+            border: 2px;
+            font-size: 14px;
+            /* Noir foncé */
+        }
+        /*  */
+        
+        .title {
+            text-align: center;
+        }
+        
+        h1 {
+            font-size: 40px;
+        }
+        
+        .btn5 {
+            width: 180px;
+            /* Remplacez par la largeur souhaitée */
+            height: 50px;
+            /* Remplacez par la hauteur souhaitée */
+            color: #FFFFFF;
+            /* Blanc */
+            background-color: #000000;
+            border-radius: 8px;
+            border: 2px;
+            font-size: 14px;
+        }
+        
+        #code {
+            width: 80%;
+            height: 360px;
+            margin-left: 10%;
+        }
+        
+        .content {
+            background-size: cover;
+            /* Fixer l'image de fond pour créer un effet de parallaxe */
+            background-attachment: fixed;
+            /* Hauteur et largeur de la div */
+            height: 60vh;
+            width: 100%;
+        }
+        
+        .fully {
+            font-size: 30px;
+        }
+        
+        .droite {
+            margin-left: 10%;
+            margin-top: 5%;
+        }
+        
+        .btn6 {
+            width: 180px;
+            /* Remplacez par la largeur souhaitée */
+            height: 50px;
+            /* Remplacez par la hauteur souhaitée */
+            color: #FFFFFF;
+            /* Blanc */
+            background-color: #000000;
+            border-radius: 8px;
+            border: 2px;
+            font-size: 14px;
+        }
+        
+        .gauche {
+            margin-top: -18%;
+            margin-left: 64%;
+        }
+        
+        div.gauche {
+            height: 300px;
+            width: 100px;
+        }
+        
+        #image10 {
+            height: 300px;
+            width: 400px;
+            height: auto;
+            display: block;
+            /* This ensures that the image behaves as a block element */
+        }
+        
+        #image100 {
+            margin-left: 10%;
+            margin-top: -10px;
+        }
+        
+        .foot {
+            margin-top: -9%;
+            margin-left: 69%;
+        }
+        
+        div.footer {
+            position: relative;
+        }
+        
+        span {
+            color: rgb(178, 175, 175);
+        }
+        /* Styles for smartphones */
+        /* CSS existant */
+        /* ... (vos styles existants) ... */
+        /* reponsive pour un smartphone */
+        
+        @media (max-width: 600px) {
+            div.header {
+                background-attachment: scroll;
+                /* Désactiver l'effet de parallaxe sur mobile */
+                height: auto;
+                /* Ajuster la hauteur selon les besoins */
+            }
+            #image1,
+            #image2 {
+                margin-left: 5%;
+                /* Ajuster les marges pour les écrans plus petits */
+            }
+            .content {
+                height: auto;
+                /* Ajuster la hauteur selon les besoins */
+            }
+            .droite,
+            .gauche,
+            .foot {
+                margin-left: 5%;
+                /* Ajuster les marges pour les écrans plus petits */
+                margin-top: 5%;
+                /* Ajuster la marge supérieure selon les besoins */
+            }
+        }
+        /* CSS existant */
+        /* ... (vos styles existants) ... */
+        /* Styles réactifs pour les tablettes */
+        
+        @media (min-width: 601px) and (max-width: 1024px) {
+            div.header {
+                background-attachment: scroll;
+                /* Désactiver l'effet de parallaxe sur tablette */
+                height: auto;
+                /* Ajuster la hauteur selon les besoins */
+            }
+            #image1,
+            #image2 {
+                margin-left: 10%;
+                /* Ajuster les marges pour les écrans de taille moyenne */
+            }
+            .content {
+                height: auto;
+                /* Ajuster la hauteur selon les besoins */
+            }
+            .droite,
+            .gauche,
+            .foot {
+                margin-left: 10%;
+                /* Ajuster les marges pour les écrans de taille moyenne */
+                margin-top: 5%;
+                /* Ajuster la marge supérieure selon les besoins */
+            }
+        }
